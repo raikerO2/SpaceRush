@@ -1,0 +1,159 @@
+a{
+    color:tomato;
+    text-decoration: none;
+}
+body{
+	background: url('8bit.png') no-repeat;
+	background-size: 100%;
+}
+canvas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+    margin-left: 28%;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 10px solid lightgray;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+
+#stageText{
+    /*border: 2px dashed green;*/
+    margin-top: 50px;
+    margin-left: 825px;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    z-index: 300;
+    color: white;
+    text-align: center;
+    font-size: 1.3sem;
+    display: none;
+}
+
+#playerLifes{
+    z-index: 400;
+ /*   border: 2px dashed green;*/
+    margin-top: 30px;
+    margin-left: 380px;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    font-family: impact;
+    display:none;
+  
+}
+
+#backgroundCanvas{
+    background-color: #13111a;
+}
+
+#splashScreen{
+    width: 550px;
+    height: 600px;
+    border: 10px solid lightgray;
+    border-radius: 5px;
+    margin: 50px auto;
+    background: url('splashscreen.jpg') no-repeat;
+    background-image: 550px 600px;  
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+}
+
+#playButton{
+    width: 150px;
+    height: 63px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 230px auto 0px;
+    font-family: impact;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+    color: tomato;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+    transition: color 1s;
+
+}
+
+#exitButton{
+    width: 150px;
+    height: 63px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-family: impact;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+    color: tomato;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+    transition: color 1s;
+
+}
+
+#exitButton:hover {
+    color: #c26808;
+    transition: color 1s;
+}
+
+#playButton:hover {
+    color: #c26808;
+    transition: color 1s;
+}
+
+#nextStage1{
+    width:80px;
+    height:30px;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 310;
+    margin-left: 605px;
+    margin-top: 250px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    font-family: impact;
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    display:  none;
+}
+#menuButton{
+    width:60px;
+    height:30px;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 310;
+    margin-left: 680px;
+    margin-top: 270px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    font-family: impact;
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    display: none;
+}
+#retryButton{
+    width:60px;
+    height:30px;
+    padding-top: 10px;
+    text-align: center;
+    z-index: 310;
+    margin-left: 550px;
+    margin-top: 270px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    font-family: impact;
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    display: none;
+    
+}
